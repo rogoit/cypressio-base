@@ -5,7 +5,7 @@ export default defineConfig({
     baseUrl: 'https://testify.team'
   },
   retries: {
-      runMode: 2
+    runMode: 2
   },
   viewportWidth: 1200,
   experimentalMemoryManagement: true,
