@@ -1,24 +1,13 @@
 {
   "name": "cypressio-base",
   "version": "1.5.1",
-  "description": "Base repository for the work on new projects",
-  "main": "index.js",
+  "description": "Cypress testing template with ncatestify plugin",
   "engines": {
-    "node": ">=16.0.0"
-  },
-  "scripts": {
-    "cypress:open": "npx cypress open"
+    "node": ">=18.17.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ncatestify/cypressio-base.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ncatestify/cypressio-base/issues"
-  },
-  "homepage": "https://github.com/ncatestify/cypressio-base#readme",
-  "devDependencies": {}
+  "license": "ISC"
 }
