@@ -9,6 +9,6 @@ describe('Image validation.', () => {
   });
 
   it('All images have response status 200', () => {
-    cy.ttValidateAllImagesResponseStatusOk();
+    cy.ttValidateAllImagesResponseStatusOk('/');
   });
 });
